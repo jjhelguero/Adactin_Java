@@ -1,0 +1,15 @@
+package enums;
+
+public enum Url {
+    BASEURL("http://adactin.com/HotelApp/index.php");
+
+    String url;
+
+    Url (String url) {
+        this.url = url;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+}
